@@ -6,10 +6,10 @@ function solveEquation(a, b, c) {
   console.log("discriminant:", descr);
   if (descr >= 0){
     if (descr){
-      result[0] = (-b + Math.sqrt(descr) )/(2*a);
-      result[1] = (-b - Math.sqrt(descr) )/(2*a);
+      arr[0] = (-b + Math.sqrt(descr) )/(2*a);
+      arr[1] = (-b - Math.sqrt(descr) )/(2*a);
     }else{
-      result[0] = -b/(2*a);
+      arr[0] = -b/(2*a);
     }
   }
 	return arr;
